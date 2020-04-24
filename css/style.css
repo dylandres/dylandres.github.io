@@ -151,7 +151,13 @@ img.anim-gif{
   color: #1e1e1e;
   font-size: 1.1rem;
   margin-top: -257px;
-  margin-left: 275px;
+  margin-left: 225px;
+}
+.title-s3 {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  margin-left: -50px;
 }
 
 
