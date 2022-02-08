@@ -600,8 +600,19 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
+
+  width:357px;
+  height:255px;
+  object-fit: cover;
+
+  /* overflow: hidden; */
+  /* display: block;
+  max-width:2300px;
+  max-height:250px;
+  width: auto;
+  height: auto; */
 }
 
 .img-thumbnail {
