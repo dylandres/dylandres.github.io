@@ -50,5 +50,21 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
+    let name = document.getElementById("name")
+    let email = document.getElementById("email")
+    let message = document.getElementById("message")
+    let button = document.getElementById("submitButton")
+    button.disabled = true
+    name.addEventListener("change", stateHandle)
+    email.addEventListener("change", stateHandle)
+    message.addEventListener("change", stateHandle)
+    function stateHandle() {
+    if (document.getElementById("name").value === "" 
+    || document.getElementById("email").value === ""
+    || document.getElementById("message").value === "") {
+        button.disabled = true
+    } else {
+        button.disabled = false
+    }
+    }
 });
